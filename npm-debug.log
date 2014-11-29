@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /root/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/root/.npm/cpu/1.0.0/package.tgz', '.' ]
+11 verbose tarball /root/.npm/cpu/1.0.0/package.tgz
+12 verbose folder .
+13 info prepublish cpu@1.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+16 silly lockFile eefe13ce-r-root-npm-cpu-1-0-0-package-tgz tar:///root/.npm/cpu/1.0.0/package.tgz
+17 verbose lock tar:///root/.npm/cpu/1.0.0/package.tgz /root/.npm/eefe13ce-r-root-npm-cpu-1-0-0-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile eefe13ce-r-root-npm-cpu-1-0-0-package-tgz tar:///root/.npm/cpu/1.0.0/package.tgz
+21 silly lockFile eefe13ce-r-root-npm-cpu-1-0-0-package-tgz tar:///root/.npm/cpu/1.0.0/package.tgz
+22 silly lockFile c67b0628-root-npm-cpu-1-0-0-package /root/.npm/cpu/1.0.0/package
+23 verbose lock /root/.npm/cpu/1.0.0/package /root/.npm/c67b0628-root-npm-cpu-1-0-0-package.lock
+24 silly lockFile c67b0628-root-npm-cpu-1-0-0-package /root/.npm/cpu/1.0.0/package
+25 silly lockFile c67b0628-root-npm-cpu-1-0-0-package /root/.npm/cpu/1.0.0/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'cpu',
+28 silly publish   version: '1.0.0',
+28 silly publish   description: 'cpu module based on \'os\' module',
+28 silly publish   main: 'index.js',
+28 silly publish   directories: { test: 'test' },
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository: { type: 'git', url: 'https://github.com/dayuoba/cpu.git' },
+28 silly publish   keywords: [ 'CPUUsage' ],
+28 silly publish   author: { name: 'dayuoba' },
+28 silly publish   license: 'MIT',
+28 silly publish   bugs: { url: 'https://github.com/dayuoba/cpu/issues' },
+28 silly publish   homepage: 'https://github.com/dayuoba/cpu',
+28 silly publish   readme: 'cpu\n===\n###Install\nnpm install cpu\n###Usage\n``var cpu=reuqire(\'cpu\');\n\n``var num=cpu.num();//return CPU\'s nums\n\n``cpu.usage(function(arr));// use callback to handle the CPUUsage Array \n',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: '0390f673bae671e7f06524ffb6b67415b7863db2',
+28 silly publish   _id: 'cpu@1.0.0',
+28 silly publish   _shasum: 'b16d2137f6ed2e7023b5fe62c093146381cb0df0',
+28 silly publish   _from: '.' }
+29 error need auth auth and email required for publishing
+29 error need auth You need to authorize this machine using `npm adduser`
+30 error System Linux 3.8.0-33-generic
+31 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+32 error cwd /home/dayu/workspace/cpu
+33 error node -v v0.10.33
+34 error npm -v 1.4.28
+35 error code ENEEDAUTH
+36 verbose exit [ 1, true ]

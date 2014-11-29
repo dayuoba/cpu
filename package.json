@@ -1,0 +1,25 @@
+{
+  "name": "cpu",
+  "version": "1.0.0",
+  "description": "cpu module based on 'os' module",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dayuoba/cpu.git"
+  },
+  "keywords": [
+    "CPUUsage"
+  ],
+  "author": "dayuoba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dayuoba/cpu/issues"
+  },
+  "homepage": "https://github.com/dayuoba/cpu"
+}
