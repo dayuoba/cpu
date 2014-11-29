@@ -13,12 +13,6 @@ function getCPUTimes(){
 }
 
 function getCPUUsage(data,cb){
-	if(cluster.isMaster){
-		var worker=cluster.fork();
-		worker.on('death',function(){
-			console.log('worker was killed');
-		})
-	}else{
 		var first=data[0];
 		var second=data[1];
 		var third=data[2];
@@ -36,7 +30,6 @@ function getCPUUsage(data,cb){
 			usage.push(per_usage.toFixed(1));
 		}
 		cb(usage);
-		cluster.worker.process.kill();
 	}
 }
 
