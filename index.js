@@ -1,1 +1,1 @@
-module.exports=require('./libs/cpu');
+module.exports=require('./lib/cpu');
