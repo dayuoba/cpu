@@ -1,6 +1,6 @@
 {
   "name": "cpu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cpu module based on 'os' module",
   "main": "index.js",
   "directories": {
