@@ -1,5 +1,7 @@
 cpu
 ===
+###Status
+[![Build Status](https://travis-ci.org/dayuoba/cpu.png)](https://travis-ci.org/dayuoba/cpu)
 ###Install
 npm install cpu
 ###Usage
