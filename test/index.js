@@ -1,7 +1,26 @@
-var cpu=require('../index');
+var cpu = require('../index');
+var should = require('should');
 
-var num=cpu.num();
-console.log(num);
-cpu.usage(function(data){
-	console.log(data);
+describe('Api test', function() {
+	describe('cpu numbers', function() {
+		it('should return a Number', function() {
+			var num = cpu.num();
+			num.should.be.type('number');
+		});
+	});
+
+	describe('cpu usages', function() {
+		it('should return an array', function(done) {
+			this.timeout = 1200;
+			var num = cpu.num();
+
+			cpu.usage(function(data) {
+				data.should.be.type('object');
+				num.should.equal(data.length);
+				done();
+			});
+
+		})
+	});
 });
+
