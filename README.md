@@ -16,10 +16,12 @@ npm install cpu
 ### Usage
 
 ```javascript
-var cpu = reuqire('cpu');
+var cpu = require('cpu');
 
 var num = cpu.num();//return CPU's nums
 
-cpu.usage(function(arr));// use callback to handle the CPUUsage Array
+cpu.usage(function(usages) {
+  console.log(usages);
+});// use callback to handle the CPUUsage Array
 
 ``` 
